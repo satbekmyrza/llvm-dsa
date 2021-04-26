@@ -47,7 +47,7 @@ install(DIRECTORY include/
   PATTERN ".svn" EXCLUDE)
 
 
-add_definitions(-std=c++11)
+# add_definitions(-std=c++11)  # TODO: could this be a problem?
 add_definitions(-Wno-redeclared-class-member -Wno-sometimes-uninitialized)
 add_definitions(-Wno-covered-switch-default)
 
